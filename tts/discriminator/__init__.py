@@ -1,0 +1,1 @@
+from tts.discriminator.jcu_discriminator import JCU

@@ -1,0 +1,14 @@
+model_info:
+  name: 'multi_lingual_with_heather_style_equalizer'
+  version_name: 'pitch_max'
+  acoustic_step: 500
+  vocoder_step: 3000000
+  language: 0
+path:
+  acoustic_ckpt: '/home/matt/model_checkpoint/'
+  vocoder_ckpt: '/home/matt/vocoder/check_point/korean/'
+#  symbol: '/home/matt/DB/voucher/preprocessed/symbols.json'
+  quantized_model: '/home/matt/PycharmProjects/TTS_toolkit_multi_lingual/quantization_test/'
+quantization:
+  linear: True
+  conv: True
